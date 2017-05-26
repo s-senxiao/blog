@@ -1,0 +1,5 @@
+{
+  "externals/bootstrap.min.js": "externals/bootstrap-dfec174fba.min.js",
+  "externals/jquery-3.1.1.min.js": "externals/jquery-3-242757fb2a.1.1.min.js",
+  "index.js": "index-e432a3aa47.js"
+}

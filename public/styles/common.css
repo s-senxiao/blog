@@ -1,0 +1,18 @@
+p {
+  font-size: 18px; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  color: #200;
+  text-decoration: none; }
+
+a:hover {
+  color: #44ABF2; }
+
+.common-title {
+  font-size: 18px;
+  color: #200; }

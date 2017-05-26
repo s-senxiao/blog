@@ -1,0 +1,23 @@
+body {
+  padding-top: 150px;
+  color: #69606b;
+  font-family: 微软雅黑
+}
+
+.nav {
+  width: 1200px;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  a {
+    font-size: 18px;
+    color: inherit;
+  }
+  a:hover {
+    color: #44ABF2;
+    text-align: center;
+  }
+}
+

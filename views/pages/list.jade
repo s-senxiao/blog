@@ -1,0 +1,15 @@
+extends ../layout
+
+block styles
+  link(rel="stylesheet", href="/styles/pages/list.css")
+
+block content
+  .container
+    .row
+      .col-sm-9
+        ul.list
+          - list.forEach(function(item) {
+            li
+              h2.common-title: a(href="")= item.title
+              p= item.desc
+          - })

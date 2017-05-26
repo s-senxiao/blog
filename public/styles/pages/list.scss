@@ -1,0 +1,11 @@
+.list {
+  padding: 30px 30px;
+  border: 1px solid #ddd;
+  li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #ddd;
+    a {
+      text-decoration: none;
+    }
+  }
+}

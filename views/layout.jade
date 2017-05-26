@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= title
+    meta(charset="utf-8")
+    block styles
+    link(rel="stylesheet", href="/styles/externals/bootstrap.min.css")
+    link(rel="stylesheet", href="/styles/layout.css")
+    link(rel="stylesheet", href="/styles/common.css")
+    block scripts
+    script(type="text/javascript", src="/scripts/externals/jquery-3.1.1.min.js")
+    script(type="text/javascript", src="/scripts/externals/bootstrap.min.js")
+  body
+    block content
+    ul.container.nav.nav-pills.nav-justified.nav-stacked
+      li(role="presentation")
+        a(href="/") 主页
+      li(role="presentation")
+        a(href="/classify") 分类
+      li(role="presentation")
+        a(href="/list") 列表
+
